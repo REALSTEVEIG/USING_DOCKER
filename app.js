@@ -33,7 +33,7 @@ app.use(session({
   cookie: {
     secure: false,
     httpOnly: true,
-    maxAge: 60000, // 1 minute
+    maxAge: 6000, // 1 minute
     // You can also set other cookie options if needed.
   },
   resave: false, // Set this to false to prevent session being saved on every request.
